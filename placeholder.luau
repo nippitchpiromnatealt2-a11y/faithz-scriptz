@@ -48,12 +48,17 @@ local function makeButton(text,y)
 	return b
 
 end
+--[[
 
 local aimbotBtn = makeButton("Aimbot: OFF",40)
 local espBtn = makeButton("ESP: OFF",80)
 local tpBtn = makeButton("TP to nearest player",120)
 local flyBtn = makeButton("Fly: OFF",160)
 local noclipBtn = makeButton("Noclip: OFF",200)
+
+--TO USE IT MAKE A VARIABLE & THEN PUT FUNCTION, FOR EXAMPLE: local exBtn = makeButton("EXAMPLE: TOGGLE",number) AT THE NUMBER, PLEASE REPLACE IT WITH 40 EACH. (SPACES BETWEEN BUTTONS)
+
+]]
 --[[
 -------------------------------------------------
 -- HELPER
@@ -371,31 +376,31 @@ UIS.InputBegan:Connect(function(input,gp)
 
 	if input.KeyCode == Enum.KeyCode.A then
 		if UIS:IsKeyDown(Enum.KeyCode.LeftControl) or UIS:IsKeyDown(Enum.KeyCode.RightControl) then
-			
+
 		end
 	end
 
 	if input.KeyCode == Enum.KeyCode.E then
 		if UIS:IsKeyDown(Enum.KeyCode.LeftControl) or UIS:IsKeyDown(Enum.KeyCode.RightControl) then
-			
+
 		end
 	end
 
 	if input.KeyCode == Enum.KeyCode.T then
 		if UIS:IsKeyDown(Enum.KeyCode.LeftControl) or UIS:IsKeyDown(Enum.KeyCode.RightControl) then
-			
+
 		end
 	end
 
-    if input.KeyCode == Enum.KeyCode.F then
+	if input.KeyCode == Enum.KeyCode.F then
 		if UIS:IsKeyDown(Enum.KeyCode.LeftControl) or UIS:IsKeyDown(Enum.KeyCode.RightControl) then
-			
+
 		end
 	end
 
-    if input.KeyCode == Enum.KeyCode.N then
+	if input.KeyCode == Enum.KeyCode.N then
 		if UIS:IsKeyDown(Enum.KeyCode.LeftControl) or UIS:IsKeyDown(Enum.KeyCode.RightControl) then
-			
+
 		end
 	end
 
